@@ -8,7 +8,6 @@ import Card from './Card'
 function App () {
   return (
     <div className="App">
-      {
         <div
           className="backgroundImage"
           style={{ backgroundImage: `url(${backgroundTop}), url(${backgroundBottom})` }}
@@ -19,23 +18,18 @@ function App () {
             Weather forecast
           </header>
           <img src={logo} className="App-logo" alt="logo" />
-          <Card type="7 Days Forecast" paragraph="1"/>
-          <Card type="Forecast for a Date in the Past" paragraph="1"/>
+          <main>
+            <Card type="7 Days Forecast" paragraph="1"/>
+            <Card type="Forecast for a Date in the Past" paragraph="1"/>
+          </main>
+          <footer>
+            <span
+              className="footerText"
+            >
+              С ЛЮБОВЬЮ ОТ MERCURY DEVELOPMENT
+            </span>
+          </footer>
         </div>
-        /* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
     </div>
   )
 }

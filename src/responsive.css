@@ -15,13 +15,16 @@ base weak #FFFFFF (white) */
         width: 95%;
         padding: 0 0px;
     }
+    main {
+        flex-direction: column;
+    }
 }
 @media only screen and (min-width: 481px) {
     /* .App {
         background-color: green;
     } */
     .Card {
-        width: 45%;
+        width: 40%;
     }
 }
 @media only screen and (min-width: 769px) {
@@ -29,6 +32,6 @@ base weak #FFFFFF (white) */
         background-color: blue;
     } */
     .Card {
-        width: 45%;
+        width: 40%;
     }
 }
