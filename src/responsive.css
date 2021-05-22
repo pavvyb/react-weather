@@ -4,17 +4,31 @@ base strong #2C2D76 (dark blue)
 critic #E5596D (light red)
 base weak #FFFFFF (white) */
 @media only screen and (max-width: 480px) {
-    .App {
-        background-color: #373AF5;
+    /* .App {
+        background-color: red;
+    } */
+    .App-header {
+        color: #FFFFFF;
+        font-size: 32px;
+    }
+    .Card {
+        width: 95%;
+        padding: 0 0px;
     }
 }
 @media only screen and (min-width: 481px) {
-    .App {
+    /* .App {
         background-color: green;
+    } */
+    .Card {
+        width: 45%;
     }
 }
 @media only screen and (min-width: 769px) {
-    .App {
+    /* .App {
         background-color: blue;
+    } */
+    .Card {
+        width: 45%;
     }
 }
