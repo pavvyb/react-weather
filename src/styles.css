@@ -1,0 +1,89 @@
+/* App.css */
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    /* background-color: #282c34; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  /* index.css */
+  /* @font-face {
+  font-family: 'Ubuntu';
+  src: local('Ubuntu Bold'), url(./fonts/Ubuntu-Bold.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: local('Ubuntu Bold Italic'), url(./fonts/Ubuntu-BoldItalic.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: local('Ubuntu Italic'), url(./fonts/Ubuntu-Italic.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: local('Ubuntu Light'), url(./fonts/Ubuntu-Light.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: local('Ubuntu Light Italic'), url(./fonts/Ubuntu-LightItalic.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: local('Ubuntu Medium'), url(./fonts/Ubuntu-Medium.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: local('Ubuntu Medium Italic'), url(./fonts/Ubuntu-MediumItalic.ttf) format('ttf');
+} */
+@font-face {
+    font-family: 'UbuntuRegular';
+    src: local('Ubuntu Regular'), url(./fonts/Ubuntu-Regular.ttf) format('truetype');
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'UbuntuRegular';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: 'UbuntuRegular';
+  }
+
+  /* background */
+  .backgroundImage {
+    background-position:right top, left bottom;
+  }

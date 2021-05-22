@@ -1,0 +1,20 @@
+/* accent #373AF5 (blue)
+secondary #8083A4 (grey)
+base strong #2C2D76 (dark blue)
+critic #E5596D (light red)
+base weak #FFFFFF (white) */
+@media only screen and (max-width: 480px) {
+    .App {
+        background-color: #373AF5;
+    }
+}
+@media only screen and (min-width: 481px) {
+    .App {
+        background-color: green;
+    }
+}
+@media only screen and (min-width: 769px) {
+    .App {
+        background-color: blue;
+    }
+}
