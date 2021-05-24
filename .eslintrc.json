@@ -22,6 +22,7 @@
     "rules": {
         "no-use-before-define": "off",
         "no-unused-vars": "off",
+        "brace-style": "off",
         "@typescript-eslint/no-use-before-define": ["error"]
     }
 }

@@ -1,46 +1,17 @@
-# Getting Started with Create React App
+# Readme with description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Почему сделал так, а не иначе
 
-## Available Scripts
+До начала прохождения стажировки не писал на реакте, пришлось параллельно изучать реакт и кодить на нем. Поэтому архитектура не совсем приятная у приложения, потому что строил ее на этапе знакомства с фреймворком. В конце пересмотрел некоторые свои решения, но времени исправить их нет. Еще и начал немного позже, что тоже дало свои плоды, и у меня получился некрасивый код, местами не по БЭМ, местами не по TS. Также, добавил адаптивность, но не успел сделать мобильную версию, она выглядит жутковато. Но я очень старался :) Написал кастомный компонент для селекта (выбор городов)
 
-In the project directory, you can run:
+## В каком моменте сомневаюсь
 
-### `yarn start`
+Сомневаюсь в том, что нужен компонент Display. Думаю, можно было бы его убрать и слегка изменить структуру кода, чтобы было красивее и лаконичнее. Еще сомневаюсь в своем распределении стейтов между компонентами (некоторые стейты можно было бы переместить для красоты и логичности на n компонентов вверх).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Что не успел сделать из-за ограничения по времени
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Из-за ограничения по времени не успел привести код в порядок (удалить ненужные переменные и немного реструктурировать: есть не совсем логичные решения, которые я хотел бы исправить), навести порядок в стилях и назвать все классы по БЭМу, сделать мобильную версию сайта и прикрепить listener на нажатие клавиш-стрелочек для того, чтобы листать недельный прогноз. Еще не успел повесить стили на иконки стрелочек для перелистывания (чтобы был стейт disabled, если листать нельзя). Пришлось использовать не совсем стилизованное выпадающее окошко для выбора даты (хотел сделать кастомный компонент, но тоже не хватило времени)
 
-### `yarn test`
+## Другая дополнительная информация.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Очень много полезных ссылок в документе-ТЗ :)
